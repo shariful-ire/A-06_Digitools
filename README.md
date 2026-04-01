@@ -9,6 +9,8 @@ Digital Tools Buying Website is a modern and responsive web application where us
 ## 🚀 Live Demo
 
 🔗 Live Site: dashing-parfait-73abf3.netlify.app
+
+.............
 🔗 GitHub Repo: https://github.com/shariful-ire/A-06_Digitools
 
 ---
