@@ -1,0 +1,73 @@
+import React from 'react';
+import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from "react-icons/fa";
+
+const Footer = () => {
+    return (
+        <div className='bg-[#101727] pt-28 pb-8 space-y-20'>
+
+            <div className='w-4/5 mx-auto text-white'>
+                <div className='flex flex-col space-y-5 md:flex-row justify-between md:gap-10'>
+                    <div className='flex flex-col items-center text-center md:text-start md:items-start'>
+                        <h1 className='text-4xl font-bold text-white mb-4'>DigiTools</h1>
+                        <p className='opacity-80 max-w-sm'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
+                    </div>
+                    <div className='flex flex-col items-center text-center md:flex-row md:text-start md:gap-6 lg:gap-20 justify-between gap-10'>
+                        <div className='space-y-4'>
+                            <h1 className='font-semibold'>Product</h1>
+                            <ul className='space-y-2 opacity-80'>
+                                <li><a href="">Features</a></li>
+                                <li><a href="">Pricing</a></li>
+                                <li><a href="">Templates</a></li>
+                                <li><a href="">Integrations</a></li>
+                            </ul>
+                        </div>
+                        <div className='space-y-4'>
+                            <h1 className='font-semibold'>Company</h1>
+                            <ul className='space-y-2 opacity-80'>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Careers</a></li>
+                                <li><a href="">Press</a></li>
+                            </ul>
+                        </div>
+                        <div className='space-y-4'>
+                            <h1 className='font-semibold'>Resources</h1>
+                            <ul className='space-y-2 opacity-80'>
+                                <li><a href="">Documentation</a></li>
+                                <li><a href="">Help Center</a></li>
+                                <li><a href="">Community</a></li>
+                                <li><a href="">Contact</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div className='space-y-4 text-center md:text-left'>
+                        <h1>Social Links</h1>
+                        <div className='flex gap-2 flex-row justify-center md:justify-start text-2xl'>
+                            <FaInstagramSquare />
+                            <FaFacebookSquare />
+                            <FaTwitterSquare />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className='w-4/5 mx-auto pt-7 border-t border-gray-700 flex justify-between items-center text-sm text-gray-400'>
+
+                <h1>© 2026 Digitools. All rights reserved- Md. Shariful Islam.</h1>
+                <div className='flex gap-5'>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookies</a>
+                </div>
+
+            </div>
+
+
+        </div>
+    );
+};
+
+export default Footer;
